@@ -74,13 +74,13 @@ def index():
     # margin-bottom: 12px; } p{ line-height: 1.6em; font-size: 42px }</style><div style="padding: 24px 48px;"><p>
     #  <br/><span style="font-size:30px">恭喜您,后端正常运行。</span></p></div> """
 #管理员---当前访客与管理员共用一套系统；后期可尝试分割管理员部分，更小的缩减前端体积
-@common.route('/admin')
+@common.route('/backend')
 def admin():
     # return '恭喜，后端部署成功'
     # return render_template('/admin/index.html')
     return render_template('admin.html')
 
-@common.route('/login')
+@common.route('/sigin')
 def login():
     return render_template('admin.html')
 

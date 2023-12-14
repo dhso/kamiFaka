@@ -1,6 +1,6 @@
-flask
-flask_sqlalchemy
-flask_cors
+flask==1.1.4
+flask_sqlalchemy==2.5.1
+flask_cors==3.0.10
 flask_jwt_extended==3.25.1
 python-alipay-sdk==2.1.1
 requests
@@ -8,7 +8,7 @@ bcrypt
 gunicorn
 gevent
 pymysql
-flask_limiter
+flask_limiter==1.4
 psycopg2-binary
 # python-telegram-bot
 # qrcode
@@ -16,3 +16,6 @@ weixin-python
 wechat-pay-sdk
 Flask-APScheduler
 stripe
+markupsafe==2.0.1
+sqlalchemy==1.4.17
+pyOpenSSL

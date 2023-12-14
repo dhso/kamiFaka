@@ -53,7 +53,7 @@ def login_record():
         db.session.add(AdminLog(ip=request.remote_addr))
     
 
-@admin.route('/login', methods=['POST'])
+@admin.route('/sigin', methods=['POST'])
 @limiter.limit("10/minute;20/hour;40/day", override_defaults=False)
 def login():
     try:
